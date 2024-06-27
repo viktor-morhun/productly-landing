@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input, button, textarea, select {
+  font-family: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__navigation {
+  list-style-type:none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header__link {
+  display: inline-block;
+  color: rgba(47, 40, 30, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: rgba(255, 153, 0, 1);
+}
+
+.header__link--active {
+  color: rgba(255, 153, 0, 1);
+}
+
+.header__button {
+  width: 110px;
+  height: 46px;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.header__button--primary {
+  background-color: rgba(255, 153, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.header__button--primary:hover {
+  background-color: rgb(255, 181, 71);
+  transition: 0.1s;
+}
+
+.header__button--secondary {
+  color: rgba(47, 40, 30, 1);
+  border: 1px solid rgba(188, 208, 229, 1);
+  margin-right: 32px;
+}
+
+.hero {
+  max-width: 1200px;
+  height: 495px;
+  margin: 70px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__container {
+  width: 500px;
+}
+
+.hero__title {
+  font-size: 44px;
+  font-weight: 700;
+  color: rgba(47, 40, 30, 1);
+}
+
+.hero__text {
+  font-size: 18px;
+  color: rgba(84, 72, 55, 1);
+  margin-top: 30px;
+}
+
+.hero__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: rgba(255, 153, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hero__link:hover {
+  background-color: rgb(255, 181, 71);
+  transition: 0.1s;
+}
+
