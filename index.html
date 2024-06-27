@@ -4,39 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Howework - Productly</title>
+    <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <header>
-      <div>
-        <img src="./image/logo-img.png" alt="logo" />
-        <img src="./image/logo.svg" alt="logo" />
-      </div>
-      <nav>
-        <ul>
-          <li>Product</li>
-          <li>Customers</li>
-          <li>Pricing</li>
-          <li>Resources</li>
-        </ul>
-        <button>Sign In</button>
-        <button>Sign Up</button>
+    <header class="header">
+      <img class="header__text-logo" src="./image/logo.svg" alt="logo"/>
+      <nav class="header__navigation">
+          <a href="#" class="header__link header__link--active">Product</a>
+          <a href="#" class="header__link">Customers</a>
+          <a href="#" class="header__link">Resources</a>
+          <a href="#" class="header__link">Pricing</a>
       </nav>
+      <div>
+        <button class="header__button header__button--secondary">Sign In</button>
+        <button class="header__button header__button--primary">Sign Up</button>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>The Design Thinking superpowers</h1>
-        <p>
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <a href="#">Get started</a>
-        <span>
-          <img src="./image/triangle-watch-video.svg" alt="video-playbutton" />
-          <button>Watch the Video</button>
-        </span>
-
-        <img src="./image/design-thinking.svg" alt="happy-people" />
+      <section class="hero">
+        <div class="hero__container">
+          <h1 class="hero__title">The Design Thinking superpowers</h1>
+          <p class="hero__text">
+            Tools, tutorials, design and innovation experts, all in one place! The
+            most intuitive way to imagine your next user experience.
+          </p>
+          <a href="#" class="l  ink hero__link">Get started</a>
+        </div>
+        <img class="hero__image" src="./image/design-thinking.svg" alt="happy-people"/>
       </section>
+      
       <section>
         <h2>We design tools to unveil your superpowers</h2>
         <ul>
